@@ -185,7 +185,7 @@ const Home = () => {
       {/* end efficeint services */}
 
       {/* start other service */}
-      <div className="bg-blue-700 ">
+      <div className="bg-blue-700 pb-16 ">
         <h2 className="text-4xl font-bold">Other Services</h2>
 
         <div class="flex  mx-12 gap-4">
