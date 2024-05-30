@@ -3,6 +3,21 @@ import React from "react";
 const Search = () => {
   return (
     <div className="ml-40">
+      {/* started top section */}
+      <div className="flex mt-5 items-center">
+        <div className="mr-2">
+          <button class="btn btn-active btn-primary">Properyies(400)</button>
+        </div>
+        <div className="mr-2">
+          <button class="btn btn-active">New Project(400)</button>
+        </div>
+        <div>
+          <button class="btn btn-active"> Pre-launch offers</button>
+        </div>
+      </div>
+
+      {/* end top section */}
+
       {/* added new item */}
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
