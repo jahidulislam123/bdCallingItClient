@@ -73,6 +73,7 @@ const Properties = () => {
                 </div>
               </div>
               <div class="card-actions flex justify-end">
+                <img src=""></img>
                 <button class="btn btn-primary w-full">Find Property</button>
               </div>
             </div>
