@@ -209,6 +209,184 @@ const Properties = () => {
       </div>
       {/* rating ended  */}
 
+      {/* popular properties started */}
+      <div>
+        <h2 className="text-2xl font-bold">Popular Properties</h2>
+        <div className="grid grid-cols-3 mx-16">
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image3.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image-1.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* popular properties end */}
+
+      {/* popular property two started  */}
+      <div>
+        <h2 className="text-2xl font-bold">Popular Properties</h2>
+        <div className="grid gap-4 grid-cols-3 mx-16">
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image3.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+          <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img class="" src="/Banner Image.png" alt="" />
+            </a>
+
+            <div className="flex items-center pt-1 px-5 justify-between">
+              <h3>Apartemt</h3>
+              <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+            </div>
+            <div class="flex items-center pt-2 justify-center  ">
+              <div class="border-t-4 border-gray-200 w-11/12"></div>
+            </div>
+            <div class="px-5">
+              <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SunnySlope Suites
+                </h5>
+              </a>
+              <div className="flex items-center justify-between">
+                <img src="/Vector.png"></img>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Meadowshire Park , Greenfield , USA
+                </p>
+              </div>
+              <p className="text-2xl font-bold">$250000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* popular property two end  */}
+
       {/* testomonial section start */}
       <div className="mt-52">
         <h2 className="font-bold text-4xl">Testomonial</h2>
