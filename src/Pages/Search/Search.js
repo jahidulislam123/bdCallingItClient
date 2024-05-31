@@ -21,7 +21,7 @@ const Search = () => {
       {/* added new item */}
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
-          <img className="w-36" src="reactangle.png"></img>
+          <img className="w-44" src="/reactangle.png"></img>
         </div>
         <div className="text-left">
           <h2>
@@ -32,7 +32,7 @@ const Search = () => {
             <div className="flex items-center ">
               <div className="flex items-center">
                 <div className="mr-2">
-                  <img src="vector.png"></img>
+                  <img src="/vector.png"></img>
                 </div>
                 <div className="mr-16">
                   <p>Meadowshire Park , Greenfield, USA</p>
@@ -49,14 +49,14 @@ const Search = () => {
               <h3>Propery details</h3>
             </div>
             <div>
-              <img src="line.png"></img>
+              <img src="/line.png"></img>
             </div>
           </div>
 
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smllOne.png"></img>
+                <img className="h-10" src="/smllOne.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -65,7 +65,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallThree.png"></img>
+                <img className="h-10" src="/smallThree.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -74,7 +74,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallTwo.png"></img>
+                <img className="h-10" src="/smallTwo.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -86,7 +86,7 @@ const Search = () => {
       </div>
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
-          <img className="w-36" src="reactangle.png"></img>
+          <img className="w-44" src="/reactangle.png"></img>
         </div>
         <div className="text-left">
           <h2>
@@ -97,7 +97,7 @@ const Search = () => {
             <div className="flex items-center ">
               <div className="flex items-center">
                 <div className="mr-2">
-                  <img src="vector.png"></img>
+                  <img src="/vector.png"></img>
                 </div>
                 <div className="mr-16">
                   <p>Meadowshire Park , Greenfield, USA</p>
@@ -114,14 +114,14 @@ const Search = () => {
               <h3>Propery details</h3>
             </div>
             <div>
-              <img src="line.png"></img>
+              <img src="/line.png"></img>
             </div>
           </div>
 
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smllOne.png"></img>
+                <img className="h-10" src="/smllOne.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -130,7 +130,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallThree.png"></img>
+                <img className="h-10" src="/smallThree.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -139,7 +139,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallTwo.png"></img>
+                <img className="h-10" src="/smallTwo.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -151,7 +151,7 @@ const Search = () => {
       </div>
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
-          <img className="w-36" src="reactangle.png"></img>
+          <img className="w-44" src="/reactangle.png"></img>
         </div>
         <div className="text-left">
           <h2>
@@ -162,7 +162,7 @@ const Search = () => {
             <div className="flex items-center ">
               <div className="flex items-center">
                 <div className="mr-2">
-                  <img src="vector.png"></img>
+                  <img src="/vector.png"></img>
                 </div>
                 <div className="mr-16">
                   <p>Meadowshire Park , Greenfield, USA</p>
@@ -179,14 +179,14 @@ const Search = () => {
               <h3>Propery details</h3>
             </div>
             <div>
-              <img src="line.png"></img>
+              <img src="/line.png"></img>
             </div>
           </div>
 
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smllOne.png"></img>
+                <img className="h-10" src="/smllOne.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -195,7 +195,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallThree.png"></img>
+                <img className="h-10" src="/smallThree.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -204,7 +204,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallTwo.png"></img>
+                <img className="h-10" src="/smallTwo.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -216,7 +216,7 @@ const Search = () => {
       </div>
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
-          <img className="w-36" src="reactangle.png"></img>
+          <img className="w-44" src="/reactangle.png"></img>
         </div>
         <div className="text-left">
           <h2>
@@ -227,7 +227,7 @@ const Search = () => {
             <div className="flex items-center ">
               <div className="flex items-center">
                 <div className="mr-2">
-                  <img src="vector.png"></img>
+                  <img src="/vector.png"></img>
                 </div>
                 <div className="mr-16">
                   <p>Meadowshire Park , Greenfield, USA</p>
@@ -244,14 +244,14 @@ const Search = () => {
               <h3>Propery details</h3>
             </div>
             <div>
-              <img src="line.png"></img>
+              <img src="/line.png"></img>
             </div>
           </div>
 
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smllOne.png"></img>
+                <img className="h-10" src="/smllOne.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -260,7 +260,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallThree.png"></img>
+                <img className="h-10" src="/smallThree.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -269,7 +269,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallTwo.png"></img>
+                <img className="h-10" src="/smallTwo.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -281,7 +281,7 @@ const Search = () => {
       </div>
       <div className="bg-blue-50 w-3/5 mt-2 p-6 flex">
         <div className="mr-5">
-          <img className="w-36" src="reactangle.png"></img>
+          <img className="w-44" src="/reactangle.png"></img>
         </div>
         <div className="text-left">
           <h2>
@@ -292,7 +292,7 @@ const Search = () => {
             <div className="flex items-center ">
               <div className="flex items-center">
                 <div className="mr-2">
-                  <img src="vector.png"></img>
+                  <img src="/vector.png"></img>
                 </div>
                 <div className="mr-16">
                   <p>Meadowshire Park , Greenfield, USA</p>
@@ -309,14 +309,14 @@ const Search = () => {
               <h3>Propery details</h3>
             </div>
             <div>
-              <img src="line.png"></img>
+              <img src="/line.png"></img>
             </div>
           </div>
 
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smllOne.png"></img>
+                <img className="h-10" src="/smllOne.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -325,7 +325,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallThree.png"></img>
+                <img className="h-10" src="/smallThree.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -334,7 +334,7 @@ const Search = () => {
             </div>
             <div className="flex items-center">
               <div className="mr-3">
-                <img className="h-10" src="smallTwo.png"></img>
+                <img className="h-10" src="/smallTwo.png"></img>
               </div>
               <div>
                 <h3>Total Area</h3>
@@ -345,6 +345,17 @@ const Search = () => {
         </div>
       </div>
       {/* end new item */}
+
+      {/* pasgination started */}
+
+      <div className="flex mt-1">
+        <div class="join ">
+          <button class="join-item btn mr-2">1</button>
+          <button class="join-item btn mr-2 btn-active">2</button>
+          <button class="join-item btn">Next</button>
+        </div>
+      </div>
+      {/* pasgination ended */}
 
       {/* bar section added */}
 
@@ -468,7 +479,7 @@ const Search = () => {
             </div>
 
             <img
-              src="Ellipse 1-1.png"
+              src="/Ellipse 1-1.png"
               alt="Shoes"
               className="w-32 h-32 rounded-full mx-auto mt-4"
             ></img>
@@ -557,7 +568,7 @@ const Search = () => {
             </div>
 
             <img
-              src="Ellipse 1.png"
+              src="/Ellipse 1.png"
               alt="Shoes"
               className="w-32 h-32 rounded-full mx-auto mt-4"
             ></img>

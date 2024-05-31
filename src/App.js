@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Properties from "./Pages/Properties/Properties";
 import Search from "./Pages/Search/Search";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/properties" element={<Properties></Properties>}></Route>
         <Route path="/search" element={<Search></Search>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
