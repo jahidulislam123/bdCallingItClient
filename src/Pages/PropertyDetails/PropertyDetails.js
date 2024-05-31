@@ -22,6 +22,10 @@ const PropertyDetails = () => {
             <h3 className="text-left  bg-blue-50 p-3  font-bold text-2xl">
               Overview
             </h3>
+            <div className="bg-blue-50">
+              <img className=" ml-16" src="Flat Details.png"></img>
+            </div>
+
             <div className="grid  bg-blue-50 p-8 grid-cols-4">
               <div className="text-left">
                 <p>Carpet Area</p>
