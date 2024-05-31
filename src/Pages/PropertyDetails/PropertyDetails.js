@@ -4,10 +4,10 @@ const PropertyDetails = () => {
   return (
     <div>
       {/* start first div */}
-      <div class="flex  mx-14  ">
+      <div class="flex my-6 mx-14  ">
         <div class=" w-3/4">
           <img className="w-100 " src="/house1.png"></img>
-          <div class="grid mr-14 mt-2 grid-cols-3 gap-4">
+          <div class="grid mr-14 mt-2 mb-2 grid-cols-3  gap-4">
             <div class="...">
               <img src="/house2.png"></img>
             </div>
@@ -18,8 +18,74 @@ const PropertyDetails = () => {
               <img src="/house2.png"></img>
             </div>{" "}
           </div>
+          <div>
+            <h3 className="text-left  bg-blue-50 p-3  font-bold text-2xl">
+              Overview
+            </h3>
+            <div className="grid  bg-blue-50 p-8 grid-cols-4">
+              <div className="text-left">
+                <p>Carpet Area</p>
+                <h3 className="font-bold">200 sqft</h3>
+                <p className="mb-4">$225 sqft</p>
+                <p>Facing</p>
+                <p>Facing</p>
+                <p className="font-bold">NorthEast</p>
+              </div>
+              <div className="text-left">
+                <p>Carpet Area</p>
+                <h3 className="font-bold">200 sqft</h3>
+                <p className="mb-4">$225 sqft</p>
+                <p>Facing</p>
+                <p>Facing</p>
+                <p className="font-bold">NorthEast</p>
+              </div>
+              <div className="text-left">
+                <p>Carpet Area</p>
+                <h3 className="font-bold">200 sqft</h3>
+                <p className="mb-4">$225 sqft</p>
+                <p>Facing</p>
+                <p>Facing</p>
+                <p className="font-bold">NorthEast</p>
+              </div>
+              <div className="text-left">
+                <p>Carpet Area</p>
+                <h3 className="font-bold">200 sqft</h3>
+                <p className="mb-4">$225 sqft</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w-1/4">02</div>
+        <div class="w-1/4">
+          <div>
+            <div className="text-left bg-blue-50 p-6 mb-2">
+              <p>Property Value</p>
+              <p className="font-bold text-2xl">$ 300k - $310k</p>
+              <p>
+                Tour bid con not be than 10% of the <br></br>Property minimum
+                value
+              </p>
+              <p>Min</p>
+              <input
+                type="text"
+                id="first_name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder=" $280k"
+                required
+              />
+              <p>Max</p>
+              <input
+                type="text"
+                id="first_name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder=" $280k"
+                required
+              />
+            </div>
+            <div>
+              <img src="/Map icon.png"></img>
+            </div>
+          </div>
+        </div>
       </div>
       {/* end first div */}
 
