@@ -6,9 +6,9 @@ const Properties = () => {
     <div className="">
       {/* banner started */}
 
-      <div class="relative">
+      <div class="relative mb-80">
         <div>
-          <img src="Frame 108.jpg" alt="Background" class="w-full"></img>
+          <img src="/Frame 108.jpg" alt="Background" class="w-full"></img>
         </div>
 
         <div class="absolute  top-52 left-0 right-0  flex justify-center">
@@ -34,40 +34,40 @@ const Properties = () => {
               <div className="flex justify-between">
                 <div>
                   <div className="flex width-on ">
-                    <img src="fi-bs-marker.png"></img>
+                    <img src="/fi-bs-marker.png"></img>
                     <h2>Your location</h2>
                   </div>
                   <br></br>
                   <div className="bg-navbar p-5 justify-end flex">
                     <div></div>
                     <div>
-                      <img src="Vector (Stroke).png"></img>
+                      <img src="/Vector (Stroke).png"></img>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div className="flex  width-on">
-                    <img src="fi-bs-marker.png"></img>
+                    <img src="/fi-bs-marker.png"></img>
                     <h2>Your location</h2>
                   </div>
                   <br></br>
                   <div className="bg-navbar p-5 justify-end flex">
                     <div></div>
                     <div>
-                      <img src="Vector (Stroke).png"></img>
+                      <img src="/Vector (Stroke).png"></img>
                     </div>
                   </div>
                 </div>
                 <div>
                   <div className="flex   width-on">
-                    <img src="fi-bs-marker.png"></img>
+                    <img src="/fi-bs-marker.png"></img>
                     <h2>Your location</h2>
                   </div>
                   <br></br>
                   <div className="bg-navbar p-5 justify-end flex">
                     <div></div>
                     <div>
-                      <img src="Vector (Stroke).png"></img>
+                      <img src="/Vector (Stroke).png"></img>
                     </div>
                   </div>
                 </div>
@@ -82,6 +82,132 @@ const Properties = () => {
       </div>
 
       {/* banner ended */}
+
+      {/* rating started  */}
+      <div className="grid my-12 mx-12 grid-cols-4 gap-4">
+        <div className="text-left py-6 rounded-sm px-12 bg-orange-200">
+          <div>
+            <h2 className="font-bold text-3xl text-orange-500">2k+</h2>
+            <h2 className="font-bold">New Flat Listed</h2>
+          </div>{" "}
+          <br></br>
+          <div className="flex justify-between items-center">
+            <div>
+              <a>
+                <u>View all</u> &nbsp;&nbsp;&nbsp;
+              </a>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#EE6611"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="py-6 text-left rounded-sm px-12 bg-blue-200">
+          <div>
+            <h2 className="font-bold text-3xl text-blue-500">2k+</h2>
+            <h2 className="font-bold">New Flat Listed</h2>
+          </div>{" "}
+          <br></br>
+          <div className="flex justify-between items-center">
+            <div>
+              <a>
+                <u>View all</u>
+              </a>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#0051A1"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="text-left py-6 rounded-sm px-12 bg-orange-200">
+          <div>
+            <h2 className="font-bold text-3xl text-orange-500">2k+</h2>
+            <h2>New Flat Listed</h2>
+          </div>{" "}
+          <br></br>
+          <div className="flex justify-between items-center">
+            <div>
+              <a>
+                <u>View all</u> &nbsp;&nbsp;&nbsp;
+              </a>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#EE6611"
+                class="size-6"
+              >
+                <path
+                  fill=""
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="py-6 text-left rounded-sm px-12 bg-blue-200">
+          <div>
+            <h2 className="font-bold text-3xl text-blue-500">2k+</h2>
+            <h2 className="font-bold">New Flat Listed</h2>
+          </div>{" "}
+          <br></br>
+          <div className="flex justify-between items-center">
+            <div>
+              <a>
+                <u>View all</u>
+              </a>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#0051A1"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* rating ended  */}
 
       {/* testomonial section start */}
       <div className="mt-52">
