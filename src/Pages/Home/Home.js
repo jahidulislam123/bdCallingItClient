@@ -20,7 +20,7 @@ const Home = () => {
               Your Portal to India's <br></br> Exquisite Real Estate
             </h2>{" "}
             {/* Styled additional description */}
-            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md  focus:outline-none focus:bg-blue-600">
               {" "}
               {/* Styled button */}
               Find Property
@@ -45,21 +45,12 @@ const Home = () => {
             className="absolute bottom-0 right-0 transform translate-x-6 -translate-y-6 max-w-1/4 max-h-1/4 object-cover"
           />
           {/* circle triangle start */}
-          <div className="absolute bottom-0 right-0 transform translate-x-6 -translate-y-6 max-w-1/4 max-h-1/4 object-cover">
+          <div className="absolute 2xl:top-40 2xl:right-40    sm:right-32   xl:top-16 xl:right-8   object-cover">
             <div className="min-h-screen flex items-center justify-center ">
               {/* Circle */}
-              <div className="w-32 h-32 bg-blue-500 rounded-full flex items-center justify-center">
+              <div>
+                <img src="/Group 27.png"></img>
                 {/* Triangle */}
-                <div
-                  className="w-0 h-0"
-                  style={{
-                    width: 0,
-                    height: 0,
-                    borderLeft: "16px solid transparent",
-                    borderRight: "16px solid transparent",
-                    borderBottom: "28px solid white",
-                  }}
-                ></div>
               </div>
             </div>
           </div>
@@ -83,9 +74,12 @@ const Home = () => {
             the realable content of the page description text. Add more details
             here to explain your l content.
           </p>
-          <button className="px-6 font-bold py-2 bg-white text-blue rounded hover:bg-blue-700">
-            Find Property
-          </button>
+          <div>
+            <button className="px-6 flex  font-bold py-2 bg-white text-blue rounded ">
+              <img src="Magnifer.png"></img>
+              Find Property
+            </button>
+          </div>
         </div>
       </div>
 
@@ -107,9 +101,12 @@ const Home = () => {
           realable content of the page description text. Add more details here
           to explain your l content.
         </p>
-        <button className="px-6 font-bold py-2 bg-white text-blue rounded hover:bg-blue-700">
-          Find Property
-        </button>
+        <div>
+          <button className="px-6 flex  font-bold py-2 bg-white text-blue rounded ">
+            <img src="Magnifer.png"></img>
+            Find Property
+          </button>
+        </div>
 
         <div className="absolute transform translate-x-40 ">
           <img src="Frame 70.png"></img>
@@ -136,23 +133,8 @@ const Home = () => {
             className="absolute bottom-0 right-0 transform translate-x-6 -translate-y-6 max-w-1/4 max-h-1/4 object-cover"
           />
           {/* circle triangle start */}
-          <div className="absolute bottom-0 right-0 transform translate-x-6 -translate-y-6 max-w-1/4 max-h-1/4 object-cover">
-            <div className="min-h-screen flex items-center justify-center ">
-              {/* Circle */}
-              <div className="w-32 h-32 bg-blue-500 rounded-full flex items-center justify-center">
-                {/* Triangle */}
-                <div
-                  className="w-0 h-0"
-                  style={{
-                    width: 0,
-                    height: 0,
-                    borderLeft: "16px solid transparent",
-                    borderRight: "16px solid transparent",
-                    borderBottom: "28px solid white",
-                  }}
-                ></div>
-              </div>
-            </div>
+          <div className="absolute 2xl:top-1/2  2xl:right-40 sm:right-32 xl:top-60 xl:right-8">
+            <img src="/Group 27.png"></img>
           </div>
         </div>
 
@@ -174,8 +156,9 @@ const Home = () => {
             the realable content of the page description text. Add more details
             here to explain your l content.
           </p>
-          <button className="px-6 font-bold py-2 bg-white text-blue rounded hover:bg-blue-700">
-            Find Property
+          <button className="px-6 flex  font-bold py-2 bg-white text-blue rounded ">
+            <img src="Magnifer.png"></img>
+            Find Propertyss
           </button>
         </div>
       </div>
