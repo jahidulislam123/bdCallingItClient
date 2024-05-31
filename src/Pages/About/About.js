@@ -161,7 +161,69 @@ const About = () => {
       {/* image ended */}
 
       {/* second image section started  */}
+
+      <div className="my-52 relative">
+        <div className="grid   grid-cols-3">
+          <div>
+            <img src="/vectorJ.png"></img>
+          </div>
+          <div className="col-span-2">
+            <img src="/img9.png"></img>
+          </div>
+        </div>
+
+        <div className="bg-orange-50 top-3/4   rounded-sm absolute  text-left py-3 w-3/6 pl-20 ml-12 ">
+          <div className="flex  items-center">
+            <div>
+              <img src="/line 9.png"></img>
+            </div>
+            <div>
+              <h2 className="text-orange-500 ml-3 font-bold">Our Mission</h2>
+            </div>
+          </div>
+          <div>
+            <h2 className="text-4xl font-bold">
+              Effiecient and Transparent <br></br>Home Buying Solutions{" "}
+            </h2>
+
+            <p>
+              In the symphony of bustling markets and serene landscapes{" "}
+              <br></br> Heritage-Nest was born -a vision to{" "}
+            </p>
+          </div>
+        </div>
+      </div>
       {/* second image section ended  */}
+
+      {/* success section started  */}
+      <div className="mx-20 text-left">
+        <div className="flex items-center ">
+          <div>
+            <img src="/line 9.png"></img>
+          </div>
+          <div>
+            <h2 className="text-orange-500 ml-3 font-bold">Our Mission</h2>
+          </div>
+        </div>
+
+        <h2 className="font-bold text-2xl mb-8 ">
+          Discover the Faces Behind Our Success
+        </h2>
+
+        <div className="grid gap-5 grid-cols-3">
+          <div>
+            <img className="" src="/Rectangle 29.png"></img>
+          </div>
+          <div>
+            <img className="h-80%" src="/Rectangle 30.png"></img>
+          </div>
+          <div>
+            <img className="h-80%" src="/Rectangle 31.png"></img>
+          </div>
+        </div>
+      </div>
+
+      {/* success section end  */}
     </div>
   );
 };
