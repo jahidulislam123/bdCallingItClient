@@ -6,7 +6,7 @@ const PropertyDetails = () => {
       {/* start first div */}
       <div class="flex my-6 mx-14  ">
         <div class=" w-3/4">
-          <img className="w-100 " src="/house1.png"></img>
+          <img className="w-100  " src="/house1.png"></img>
           <div class="grid mr-14 mt-2 mb-2 grid-cols-3  gap-4">
             <div class="...">
               <img src="/house2.png"></img>
@@ -18,8 +18,8 @@ const PropertyDetails = () => {
               <img src="/house2.png"></img>
             </div>{" "}
           </div>
-          <div>
-            <h3 className="text-left  bg-blue-50 p-3  font-bold text-2xl">
+          <div className="pr-16">
+            <h3 className="text-left   bg-blue-50 p-3  font-bold text-2xl">
               Overview
             </h3>
             <div className="bg-blue-50">
@@ -60,8 +60,8 @@ const PropertyDetails = () => {
           </div>
         </div>
         <div class="w-1/4">
-          <div>
-            <div className="text-left bg-blue-50 p-6 mb-2">
+          <div className="">
+            <div className="text-left bg-blue-50 py-20 px-3  mb-6">
               <p>Property Value</p>
               <p className="font-bold text-2xl">$ 300k - $310k</p>
               <p>
@@ -84,6 +84,13 @@ const PropertyDetails = () => {
                 placeholder=" $280k"
                 required
               />
+              <div className="mt-6">
+                <img src="Frame 158.png"></img>
+              </div>
+
+              <button class="btn text-center mt-3 btn-primary">
+                Bid Property
+              </button>
             </div>
             <div>
               <img src="/Map icon.png"></img>
@@ -216,8 +223,109 @@ const PropertyDetails = () => {
 
       {/* end second part */}
 
+      {/* popular property two started  */}
+      <div>
+        <h2 className="text-2xl xl:ml-20 2xl:ml-80  2xl:pl-12 mt-8 text-left font-bold">
+          New listed Propertys
+        </h2>
+        <div className="flex justify-center items-center">
+          <div>
+            <img className="w-16" src="/iconLeft.png"></img>
+          </div>
+          <div>
+            <div className="grid gap-4 grid-cols-3 ">
+              <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="" src="/Banner Image.png" alt="" />
+                </a>
+
+                <div className="flex items-center pt-1 px-5 justify-between">
+                  <h3>Apartemt</h3>
+                  <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+                </div>
+                <div class="flex items-center pt-2 justify-center  ">
+                  <div class="border-t-4 border-gray-200 w-11/12"></div>
+                </div>
+                <div class="px-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      SunnySlope Suites
+                    </h5>
+                  </a>
+                  <div className="flex items-center justify-between">
+                    <img src="/Vector.png"></img>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                      Meadowshire Park , Greenfield , USA
+                    </p>
+                  </div>
+                  <p className="text-2xl font-bold">$250000</p>
+                </div>
+              </div>
+              <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="" src="/Banner Image3.png" alt="" />
+                </a>
+
+                <div className="flex items-center pt-1 px-5 justify-between">
+                  <h3>Apartemt</h3>
+                  <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+                </div>
+                <div class="flex items-center pt-2 justify-center  ">
+                  <div class="border-t-4 border-gray-200 w-11/12"></div>
+                </div>
+                <div class="px-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      SunnySlope Suites
+                    </h5>
+                  </a>
+                  <div className="flex items-center justify-between">
+                    <img src="/Vector.png"></img>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                      Meadowshire Park , Greenfield , USA
+                    </p>
+                  </div>
+                  <p className="text-2xl font-bold">$250000</p>
+                </div>
+              </div>
+              <div class="max-w-sm text-left bg-white border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="" src="/Banner Image.png" alt="" />
+                </a>
+
+                <div className="flex items-center pt-1 px-5 justify-between">
+                  <h3>Apartemt</h3>
+                  <img className="w-4 h-4" src="/Rectangle 26.png"></img>
+                </div>
+                <div class="flex items-center pt-2 justify-center  ">
+                  <div class="border-t-4 border-gray-200 w-11/12"></div>
+                </div>
+                <div class="px-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      SunnySlope Suites
+                    </h5>
+                  </a>
+                  <div className="flex items-center justify-between">
+                    <img src="/Vector.png"></img>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                      Meadowshire Park , Greenfield , USA
+                    </p>
+                  </div>
+                  <p className="text-2xl font-bold">$250000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img className="w-16" src="/iconRight.png"></img>
+          </div>
+        </div>
+      </div>
+      {/* popular property two end  */}
+
       {/* start other service */}
-      <div className=" pb-16 ">
+      <div className=" mt-6 pb-16 ">
         <h2 className="text-4xl font-bold">Other Services</h2>
 
         <div class="flex  mx-12 gap-4">
